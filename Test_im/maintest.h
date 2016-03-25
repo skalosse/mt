@@ -14,7 +14,7 @@ public:
      Maintest( int i=1024, int j=768);
     ~Maintest();
     QImage* get_image();
-
+    void refresh_random(int i, int j);
 private:
     QImage* m_image;
     QLabel*  m_label;
