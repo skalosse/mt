@@ -5,8 +5,13 @@
 #include <QImage>
 #include <QPixmap>
 #include <QWidget>
+#include <qextserialport/qextserialport.h>
 //#include <QVBoxLayout>
 #include <QLabel>
+
+class QextSerialPort;
+class QextSerialEnumerator;
+
 class Maintest : public QWidget
 {
 Q_OBJECT

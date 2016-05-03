@@ -12,6 +12,7 @@ m_image(new QImage(i,j,QImage::Format_Mono)), m_h(i),m_l(j), m_label(new QLabel(
         }
     }
     m_label->setPixmap(QPixmap::fromImage(*m_image));
+
 }
 
 Maintest::~Maintest()

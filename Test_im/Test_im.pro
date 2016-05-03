@@ -11,10 +11,15 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Test_im
 TEMPLATE = app
 
+include(qextserialport/qextserialport.pri)
 
 SOURCES += main.cpp\
-        maintest.cpp
+        maintest.cpp \
+    fonctions_map.cpp \
+    Package.cpp
 
-HEADERS  += maintest.h
+HEADERS  += maintest.h \
+    fonctions_map.hpp \
+    Package.hpp
 
 FORMS    += maintest.ui
